@@ -1,0 +1,10 @@
+#ricky
+#10/18/2023
+#Conditional Statements
+money = int(input("How much money do you have?:"))
+if (money >= 2000):
+    print("Macbook Pro")
+elif (money >= 1000):
+    print ("iPhone")
+else: 
+    print("get yo money up")

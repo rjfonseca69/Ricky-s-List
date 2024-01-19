@@ -1,0 +1,23 @@
+#Ricardo Fonseca
+#10/24/2023
+#Artist Generator 
+
+print("Welcome to the Office Character Game!")
+print("Answer the questions to find your character")
+ans = input("male (m) or female (f) ?")
+if ans == "m":
+    ans == input("funny (f) or serious (s)?")
+    if ans == "f":
+        ans == input("manager (m) or sales (s)?")
+        if ans == "m":
+            print("Your Office character is Michael Scott")
+        else:
+            print("Your Office character is Jim Halpert")
+if ans == "f":
+    ans == input("funny (f) or serious (s)?")
+    if ans == "f":
+        ans == input("receptionist (r) or HR (h)?")
+        if ans == "r":
+            print("Pam Beesly")
+        else:
+            print("Kelly Kapoor")

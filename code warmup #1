@@ -1,0 +1,19 @@
+#ricardo fonseca
+
+
+def name(first, last):
+    if first == "first":
+        print("Hello my name is Ricardo")
+    if last == "last":
+        print("Hello my name is Fonseca")
+    
+name(first last)
+
+first = input("Enter your first name: ")
+last = input(Enter your last name: )
+#String Concentration 
+print("Hello, " + first last)
+
+def print_full_name(first, last):
+    print("Hello, " + first + " " + last + "!Welcome to python")
+    print_full_name("Ricardo", "Fonseca")
